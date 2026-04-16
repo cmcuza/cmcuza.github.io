@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Carlos E. Muñiz Cuza</title>
+  <meta name="description" content="Personal homepage of Dr. Carlos E. Muñiz Cuza." />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #111;
+      background: #fff;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 24px 48px;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      color: #111;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 32px 0 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .top {
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .photo {
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+
+    .muted {
+      color: #444;
+    }
+
+    ul {
+      margin: 8px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 0 0 8px;
+    }
+
+    .links p {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 720px) {
+      .top {
+        grid-template-columns: 1fr;
+      }
+
+      .photo-wrap {
+        max-width: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top">
+      <div>
+        <h1>Dr. Carlos E. Muñiz Cuza</h1>
+        <p class="muted">AI Research Engineer · Machine Learning Systems · Time Series Analytics</p>
+
+        <p>
+          I am a researcher and engineer working at the intersection of machine learning,
+          time series analytics, and systems. My work focuses on data compression,
+          forecasting, missing value imputation, and practical open-source tools for research
+          and deployment.
+        </p>
+
+        <p>
+          I am currently affiliated with Technische Universität Berlin and Aalborg University.
+        </p>
+
+        <div class="links">
+          <p>Email: <a href="mailto:cmcuza@gmail.com">cmcuza@gmail.com</a></p>
+          <p>Google Scholar: <a href="https://scholar.google.com/citations?user=yyZKUS0AAAAJ&hl=en" target="_blank" rel="noreferrer">profile</a></p>
+          <p>GitHub: <a href="https://github.com/cmcuza" target="_blank" rel="noreferrer">github.com/cmcuza</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/cmcuza" target="_blank" rel="noreferrer">linkedin.com/in/cmcuza</a></p>
+        </div>
+      </div>
+
+      <div class="photo-wrap">
+        <img class="photo" src="foto.jpg" alt="Portrait of Carlos E. Muñiz Cuza" />
+      </div>
+    </div>
+
+    <h2>Selected Projects</h2>
+    <ul>
+      <li>
+        <strong>TerseTS.</strong>
+        Open-source framework unifying multiple lossless and lossy time series compression methods under a common API.
+        [<a href="https://github.com/cmcuza/TerseTS" target="_blank" rel="noreferrer">repository</a>]
+      </li>
+      <li>
+        <strong>CAMEO.</strong>
+        A compression algorithm that preserves autocorrelation structure to maintain forecasting performance.
+        [<a href="https://doi.org/10.48786/edbt.2026.02" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+      <li>
+        <strong>SST-GCN.</strong>
+        A graph neural network for stochastic missing-value imputation in spatio-temporal data.
+        [<a href="https://doi.org/10.1145/3557915.3560948" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+    </ul>
+
+    <h2>Publications</h2>
+    <p>
+      For a full list see
+      <a href="https://scholar.google.com/citations?user=yyZKUS0AAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+      and
+      <a href="https://dblp.org/pid/186/8484.html" target="_blank" rel="noreferrer">DBLP</a>.
+    </p>
+    <p><strong>2026</strong></p>
+    <ul>
+      <li>
+        Carlos Enrique Muñiz-Cuza, Søren Kejser Jensen, Tom Louis Klein, Sabina Bakhtiiarova, Matthias Boehm, Torben Bach Pedersen:
+        <em>TerseTS: A Framework for Time Series Compression.</em> EDBT 2026.
+        [<a href="https://openproceedings.org/2026/conf/edbt/paper-286.pdf" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+      <li>
+        Carlos Enrique Muñiz-Cuza, Matthias Boehm, Torben Bach Pedersen:
+        <em>CAMEO: Autocorrelation-Preserving Line Simplification for Lossy Time Series Compression.</em> EDBT 2026.
+        [<a href="https://openproceedings.org/2026/conf/edbt/paper-21.pdf" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+    </ul>
+    <p><strong>2025</strong></p>
+    <ul>
+      <li>
+        Kristiyan Blagov, Carlos Enrique Muñiz-Cuza, Matthias Boehm:
+        <em>Fast, Parameter-free Time Series Anomaly Detection.</em> BTW 2025.
+        [<a href="https://dl.gi.de/bitstreams/5099161e-1f78-4745-9247-b9e28ee9d123/download" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+    </ul>
+    <p><strong>2024</strong></p>
+    <ul>
+      <li>
+        Carlos Enrique Muñiz-Cuza, Søren Kejser Jensen, Jonas Brusokas, Nguyen Ho, Torben Bach Pedersen:
+        <em>Evaluating the Impact of Error-Bounded Lossy Compression on Time Series Forecasting.</em> EDBT 2024.
+        [<a href="https://openproceedings.org/2024/conf/edbt/paper-102.pdf" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+    </ul>
+    <p><strong>2022</strong></p>
+    <ul>
+      <li>
+        Carlos Enrique Muñiz-Cuza, Nguyen Ho, Eleni Tzirita Zacharatou, Torben Bach Pedersen, Bin Yang:
+        <em>Spatio-temporal Graph Convolutional Network for Stochastic Traffic Speed Imputation.</em> SIGSPATIAL/GIS 2022.
+        [<a href="https://dl.acm.org/doi/10.1145/3557915.3560948" target="_blank" rel="noreferrer">paper</a>]
+      </li>
+    </ul>
+    <p><strong>2018</strong></p>
+    <ul>
+      <li>
+        Carlos Enrique Muñiz Cuza, Gretel Liz De la Peña Sarracén, Paolo Rosso:
+        <em>Attention Mechanism for Aggressive Detection.</em> IberEval@SEPLN 2018.
+        [<a href="https://ceur-ws.org/Vol-2150/" target="_blank" rel="noreferrer">proceedings</a>]
+      </li>
+    </ul>
+
+    <h2>Open Source</h2>
+    <p>
+      My open-source repositories are available on
+      <a href="https://github.com/cmcuza" target="_blank" rel="noreferrer">GitHub</a>.
+    </p>
+
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Research and Teaching Assistant</strong>, Technische Universität Berlin &amp; Aalborg University, 2020–present.</li>
+      <li><strong>NLP Engineer</strong>, Everis, 2019.</li>
+      <li><strong>Research and Development Engineer</strong>, Datys, 2015–2018.</li>
+    </ul>
+
+    <h2>Teaching</h2>
+    <ul>
+      <li>
+        <strong>Data Integration and Large-Scale Analysis</strong>, TU Berlin (WiSe 2025/26).
+        [<a href="https://mboehm7.github.io/teaching/ws2526_dia/index.htm" target="_blank" rel="noreferrer">course page</a>]
+      </li>
+    </ul>
+
+    <h2>Awards</h2>
+    <ul>
+      <li><strong>EDBT 2026 Best Demo Honorable Mention</strong> for <em>TerseTS: A Framework for Time Series Compression</em>.</li>
+      <li><strong>PhD Fellowship</strong>, jointly funded by Aalborg University and BIFOLD.</li>
+      <li><strong>Erasmus Mundus Scholarship</strong> for the Joint Master's in Big Data Management and Analytics.</li>
+      <li><strong>Summa Cum Laude</strong>, BSc in Computer Science.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>PhD in Computer Science</strong>, Technische Universität Berlin &amp; Aalborg University, 2021–2026.</li>
+      <li><strong>Erasmus Mundus Joint Master's in Big Data Management and Analytics</strong>, 2018–2020.</li>
+      <li><strong>BSc in Computer Science</strong>, University of Oriente, Cuba.</li>
+    </ul>
+  </div>
+</body>
+</html>
